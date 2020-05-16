@@ -1,0 +1,105 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+
+
+}
+.paragraph{
+    padding: 1%;
+    margin-top: 7%;
+}
+.bigbox {
+    box-sizing: border-box;
+    background-color: lightgray;
+    height: auto;
+    float: left;
+    margin: 1%;
+    border-style: solid;
+
+}
+
+.littlebox {
+    border-style: solid;
+    width: 25%;
+    float: right;
+    text-align: center;
+
+}
+
+#box11 {
+    background: pink;
+
+}
+
+#box22 {
+    background: red;
+
+}
+
+#box33 {
+    background: yellow;
+
+}
+
+/********** Base styles **********/
+@media (min-width: 992px) {
+
+
+    #box1 {
+        width: 31.3%;
+    }
+
+    #box2 {
+        width: 31.3%;
+    }
+
+    #box3 {
+        width: 31.3%;
+    }
+}
+
+h1 {
+    margin-bottom: 60px;
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #box1 {
+        width: 48%;
+    }
+
+    #box2 {
+        width: 48%;
+    }
+
+    #box3 {
+        width: 98%;
+    }
+    #paragraph3 {
+        margin-top: 3.5%;
+    }
+
+}
+
+/********** Medium devices only **********/
+
+@media (max-width: 767px) {
+    #box1 {
+        width: 98%;
+    }
+
+    #box2 {
+        width: 98%;
+    }
+
+    #box3 {
+        width: 98%;
+    }
+
+
+}
